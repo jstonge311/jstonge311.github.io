@@ -5,12 +5,13 @@ header {
   left: 0;
 }
 header h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Playfair Display", serif;
   margin: 30px;
+  line-height: 1rem;
 }
 header h1 span {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 header nav {
   width: 50%;
@@ -20,7 +21,7 @@ header nav ul {
   float: left;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  margin-top: 100px;
+  margin-top: 85px;
   padding-top: 20px;
   width: 275px;
   height: 260px;
@@ -31,12 +32,13 @@ header nav ul {
 }
 
 main {
-  float: right;
+  margin-left: 305px;
+  margin-top: 207px;
 }
 main div {
   height: 600px;
   margin-top: 100px;
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 100px;
   border-top: 2px solid black;
 }
