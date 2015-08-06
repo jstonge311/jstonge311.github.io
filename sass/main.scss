@@ -4,8 +4,8 @@ $from: white;
 $to: rgba(225, 225, 225, .0001);
 $font-stack: 'Unna', serif;
 $font-stack2: 'Roboto', sans-serif;
-$accent-color: #BDA16D;
-$accent-color2: #485789;
+$accent-color: #D1C600;
+$accent-color2: #0C6285;
 
 @mixin linear-gradient {
    background-color: $to;
@@ -16,7 +16,9 @@ $accent-color2: #485789;
    background-image: -ms-linear-gradient($from 50%, $to);
    background-image: linear-gradient($from 50%, $to);
 }
-
+body {
+   background-image: url(../img/handmadepaper.png);
+}
 header {
    position: fixed;
    top: 0;
@@ -35,7 +37,8 @@ header {
    h1 {
       font-size: 4.1rem;
       font-family: $font-stack;
-      margin: 30px 0 0 50px;
+      margin: 0 0 0 70px;
+      padding-top: 40px;
       line-height: 3.5rem;
       font-weight: bold;
       span {
@@ -48,7 +51,7 @@ header {
       ul {
          float: left;
          border-top: 4px solid $accent-color2;
-         margin-top: 45px;
+         margin-top: 35px;
          padding-top: 20px;
          padding-left: 20px;
          width: 325px;
@@ -74,39 +77,62 @@ header {
 main {
    z-index:10;
    margin-left: 395px;
-   .blank {
-            margin-top: 70px;
-            color: transparent;
-         }
+   p {
+      #top {
+         height: 300px;
+         color: transparent;
+      }
+   }
    div {
       font-family: $font-stack2;
-      height: 497px;
+      height: 525px;
       margin-right: 50px;
       padding-left: 70px;
       border-top: 4px solid $accent-color2;
       &:first-of-type {
          margin-top: 171px;
       }
-      span {
+      h2 {
+         margin-top: 30px;
          font-size: 3rem;
          font-family: $font-stack;
          font-weight: bold;
-         width: 250px;
          color: $accent-color;
-         &#IdentityDesign {
-            font-size: 1.3rem;
-            font-family: $font-stack2;
-            font-weight: 100;
-            line-height: 1.9rem;
-         }
       }
       p{
-         margin-top: 40px;
+         margin-top: 15px;
          width: 600px;
          font-family: $font-stack2;
          font-weight: 100;
          font-size: 1.3rem;
          line-height: 1.9rem;
+         &#IdentityDesign {
+            color: transparent;
+      }
+         &#links {
+            font-family: $font-stack;
+            padding-bottom:35px;
+            a {
+               &:link {
+                  color: $accent-color2;
+                  text-decoration: none;
+               }
+               &:visited {
+                  color: $accent-color2;
+                  text-decoration: none;
+               }
+               &:hover {
+                  color: $accent-color;
+                  text-decoration: none;
+               }
+         }
       }
    }
+   td {
+   border: 1px solid black;
+      img {
+      width: 200px;
+      }
+   }
+}
 }
