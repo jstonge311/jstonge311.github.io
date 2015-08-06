@@ -6,13 +6,11 @@
    <link rel="stylesheet" href="css/main.css">
    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'>
    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
-<a href="#top">
-<h1>jacqueline</h1>
-<h1>st. onge</h1>
-</a>
+<h1><a href="#top">jacqueline<br> st. onge</a></h1>
 <nav>
    <ul>
       <li><a href="#IdentityDesign">Identity Design</a></li>
@@ -24,32 +22,19 @@
 </nav>
 </header>
 <main>
+<p id="blank"><span id="top">This is placeholder text to make room for my anchor!</span></p>
       <div>
       <p><span>Hello there!</span></p>
-      <p>I'm Jacqueline. Most people call me JJ. I'm a Boston-based graphic and web designer currently working in communications at Beth Israel Deaconess Medical Center. I'm currently looking for small- to mid-sized projects, so please get in <span id="IdentityDesign">touch!</span></p>
+      <p>I'm Jacqueline. Most people call me JJ. I'm a Boston-based graphic and web designer currently working in communications at Beth Israel Deaconess Medical Center. I'm currently looking for small- to mid-sized projects, so please get in touch!</p>
+      <p id="blank"><span id="IdentityDesign">This is placeholder text to make room for my anchor!</span></p>
    </div>
    <div>
+    <p><span>Identity Design</span></p>
    </div>
    <div>
    </div>
 </main>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-   <script>
-   $(function() {
-     $('a[href*=#]:not([href=#])').click(function() {
-       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-
-         var target = $(this.hash);
-         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-         if (target.length) {
-           $('html,body').animate({
-             scrollTop: target.offset().top
-           }, 1000);
-           return false;
-         }
-       }
-     });
-   });
-   </script>
+<script src="js/portfolio.js"></script>
 </body>
 </html>

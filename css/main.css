@@ -12,11 +12,14 @@ header a {
   text-decoration: none;
   color: black;
 }
+header a:hover {
+  color: #810404;
+}
 header h1 {
-  font-size: 3.5rem;
+  font-size: 4.1rem;
   font-family: "Playfair Display", serif;
-  margin: 50px 0 0 50px;
-  line-height: 1rem;
+  margin: 30px 0 0 50px;
+  line-height: 3.5rem;
   font-weight: bold;
 }
 header h1 span {
@@ -29,10 +32,10 @@ header nav {
 header nav ul {
   float: left;
   border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  margin-top: 55px;
+  margin-top: 45px;
   padding-top: 20px;
-  width: 345px;
+  padding-left: 20px;
+  width: 325px;
   height: 260px;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
@@ -45,21 +48,26 @@ header nav li a {
   text-decoration: none;
   color: #000;
 }
+header nav li a:hover {
+  color: #810404;
+}
 
 main {
   z-index: 10;
   margin-left: 395px;
-  margin-top: 187px;
 }
 main div {
   font-family: "Roboto", sans-serif;
-  height: 403px;
+  height: 503px;
   margin-right: 50px;
   padding-left: 70px;
   border-top: 2px solid black;
 }
 main div#top {
   height: 40px;
+}
+main div:first-of-type {
+  margin-top: 171px;
 }
 main div span {
   font-size: 3rem;
@@ -80,4 +88,8 @@ main div p {
   font-weight: 100;
   font-size: 1.3rem;
   line-height: 1.9rem;
+}
+main div p#blank {
+  margin-top: 70px;
+  color: transparent;
 }
