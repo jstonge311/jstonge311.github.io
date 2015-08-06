@@ -5,7 +5,13 @@ header {
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: linear-gradient(white 50%, transparent);
+  background-color: rgba(225, 225, 225, 0.0001);
+  background-image: -moz-linear-gradient(white 50%, rgba(225, 225, 225, 0.0001));
+  background-image: -o-linear-gradient(white 50%, rgba(225, 225, 225, 0.0001));
+  background-image: -webkit-gradient(linear, top, bottom, color-stop(0, white), color-stop(1, rgba(225, 225, 225, 0.0001)));
+  background-image: -webkit-linear-gradient(white 50%, rgba(225, 225, 225, 0.0001));
+  background-image: -ms-linear-gradient(white 50%, rgba(225, 225, 225, 0.0001));
+  background-image: linear-gradient(white 50%, rgba(225, 225, 225, 0.0001));
   z-index: 30;
 }
 header a {
@@ -56,15 +62,16 @@ main {
   z-index: 10;
   margin-left: 395px;
 }
+main .blank {
+  margin-top: 70px;
+  color: transparent;
+}
 main div {
   font-family: "Roboto", sans-serif;
   height: 497px;
   margin-right: 50px;
   padding-left: 70px;
   border-top: 4px solid #485789;
-}
-main div#top {
-  height: 40px;
 }
 main div:first-of-type {
   margin-top: 171px;
@@ -89,8 +96,4 @@ main div p {
   font-weight: 100;
   font-size: 1.3rem;
   line-height: 1.9rem;
-}
-main div p span.blank {
-  margin-top: 70px;
-  color: transparent;
 }
