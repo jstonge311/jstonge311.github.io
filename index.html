@@ -9,8 +9,10 @@
 </head>
 <body>
 <header>
+<a href="#top">
 <h1>jacqueline</h1>
 <h1>st. onge</h1>
+</a>
 <nav>
    <ul>
       <li><a href="#IdentityDesign">Identity Design</a></li>
@@ -22,14 +24,32 @@
 </nav>
 </header>
 <main>
-   <div>
+      <div>
       <p><span>Hello there!</span></p>
-      <p>I'm Jacqueline. Most people call me JJ. I'm a Boston-based graphic and web designer currently working in communications at Beth Israel Deaconess Medical Center. I'm currently looking for small- to mid-sized projects, so please get in <a name="IdentityDesign">touch!</a></p>
+      <p>I'm Jacqueline. Most people call me JJ. I'm a Boston-based graphic and web designer currently working in communications at Beth Israel Deaconess Medical Center. I'm currently looking for small- to mid-sized projects, so please get in <span id="IdentityDesign">touch!</span></p>
    </div>
    <div>
    </div>
    <div>
    </div>
 </main>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+   <script>
+   $(function() {
+     $('a[href*=#]:not([href=#])').click(function() {
+       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+         var target = $(this.hash);
+         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+         if (target.length) {
+           $('html,body').animate({
+             scrollTop: target.offset().top
+           }, 1000);
+           return false;
+         }
+       }
+     });
+   });
+   </script>
 </body>
 </html>
