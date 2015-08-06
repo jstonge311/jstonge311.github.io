@@ -1,7 +1,9 @@
 @import 'base.css';
 
-$font-stack: 'Playfair Display', serif;
+$font-stack: 'Unna', serif;
 $font-stack2: 'Roboto', sans-serif;
+$accent-color: #BDA16D;
+$accent-color2: #485789;
 
 header {
    position: fixed;
@@ -13,16 +15,16 @@ header {
    z-index: 30;
    a {
       text-decoration: none;
-      color: black;
+      color: $accent-color;
       &:hover {
-         color: #810404;
+         color: $accent-color2;
       }
    }
    h1 {
       font-size: 4.1rem;
       font-family: $font-stack;
       margin: 30px 0 0 50px;
-      line-height:3.5rem;
+      line-height: 3.5rem;
       font-weight: bold;
       span {
          font-size: 2rem;
@@ -33,7 +35,7 @@ header {
       margin-left: 50px;
       ul {
          float: left;
-         border-top: 2px solid black;
+         border-top: 4px solid $accent-color2;
          margin-top: 45px;
          padding-top: 20px;
          padding-left: 20px;
@@ -51,7 +53,7 @@ header {
             text-decoration: none;
             color: #000;
             &:hover {
-               color: #810404;
+               color: $accent-color;
             }
          }
       }
@@ -62,10 +64,10 @@ main {
    margin-left: 395px;
    div {
       font-family: $font-stack2;
-      height: 503px;
+      height: 497px;
       margin-right: 50px;
       padding-left: 70px;
-      border-top: 2px solid black;
+      border-top: 4px solid $accent-color2;
       &#top {
          height: 40px;
       }
@@ -77,6 +79,7 @@ main {
          font-family: $font-stack;
          font-weight: bold;
          width: 250px;
+         color: $accent-color;
          &#IdentityDesign {
             font-size: 1.3rem;
             font-family: $font-stack2;
@@ -91,10 +94,12 @@ main {
          font-weight: 100;
          font-size: 1.3rem;
          line-height: 1.9rem;
-         &#blank{
+         span{
+         &.blank {
             margin-top: 70px;
             color: transparent;
          }
+      }
       }
    }
 }
