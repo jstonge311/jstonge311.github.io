@@ -92,23 +92,64 @@ main div.WebDesign {
   margin-top: 134px;
 }
 main div.WebDesign img {
-  width: 48%;
-  margin: auto;
+  width: 40%;
+  margin-left: 20px;
   padding-top: 30px;
 }
 main div.WebDesign p {
   width: 80%;
 }
-main div.HealthComm {
-  margin-top: 169px;
+main div.WebDesign p a:link {
+  text-decoration: none;
+  color: #D1C600;
 }
-main div.personal {
-  margin-top: 169px;
+main div.WebDesign p a:visited {
+  text-decoration: none;
+  color: #D1C600;
+}
+main div.WebDesign p a:hover {
+  color: #0C6285;
+}
+main div.HealthComm {
+  margin-top: 100px;
 }
 main div.resume {
-  margin-top: 169px;
+  margin-top: 109px;
 }
-main div #WebDesign, main div #HealthComm, main div #personal, main div #resume {
+main div.resume p {
+  width: 100%;
+}
+main div.resume p span {
+  color: #0C6285;
+}
+main div.resume p span a:link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #D1C600;
+}
+main div.resume p span a:visited {
+  text-decoration: none;
+  color: #D1C600;
+}
+main div.resume p span a:hover {
+  color: #0C6285;
+}
+main div.resume p a:link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #D1C600;
+}
+main div.resume p a:visited {
+  text-decoration: none;
+  color: #D1C600;
+}
+main div.resume p a:hover {
+  color: #0C6285;
+}
+main div.resume img {
+  height: 500px;
+}
+main div #WebDesign, main div #HealthComm, main div #Resume {
   color: transparent;
 }
 main div h2 {
@@ -226,9 +267,23 @@ main div div.grid div.proxy img {
   height: 100%;
 }
 
+footer {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+footer a:link {
+  text-decoration: none;
+  color: #D1C600;
+}
+footer a:visited {
+  text-decoration: none;
+  color: #D1C600;
+}
+footer a:hover {
+  color: #0C6285;
+}
 footer p {
-  postion: fixed;
-  bottom: 30px;
-  right: 30px;
-  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.7rem;
 }

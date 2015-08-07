@@ -7,6 +7,7 @@ $font-stack: 'Unna', serif;
 $font-stack2: 'Roboto', sans-serif;
 $accent-color: #D1C600;
 $accent-color2: #0C6285;
+$gray: #5A5A5A;
 
 @mixin linear-gradient {
    background-color: $to;
@@ -67,7 +68,7 @@ header {
             font-family: $font-stack2;
             font-weight: 100;
             text-decoration: none;
-            color: #5A5A5A;
+            color: $gray;
             &:hover {
                color: $accent-color;
             }
@@ -79,7 +80,7 @@ main {
    z-index:10;
    margin-left: 395px;
    p {
-      color: #5A5A5A;
+      color: $gray;
       #top {
          height: 290px;
          color: transparent;
@@ -100,24 +101,71 @@ main {
       &.WebDesign {
          margin-top: 134px;
          img {
-            width: 48%;
-            margin: auto;
+            width: 40%;
+            margin-left: 20px;
             padding-top: 30px;
          }
          p {
             width: 80%;
+            a {
+               &:link {
+                  text-decoration: none;
+                  color: $accent-color;
+               }
+               &:visited{
+                  text-decoration: none;
+                  color: $accent-color;
+               }
+               &:hover{
+                  color: $accent-color2;
+               }
+            }
          }
       }
       &.HealthComm{
-         margin-top: 169px;
-      }
-      &.personal{
-         margin-top: 169px;
+         margin-top: 100px;
       }
       &.resume{
-         margin-top: 169px;
+         margin-top: 109px;
+         p {
+            width: 100%;
+            span {
+               color: $accent-color2;
+                  a {
+                     &:link {
+                        font-size: 1.3rem;
+                        text-decoration: none;
+                        color: $accent-color;
+                     }
+                     &:visited {
+                        text-decoration: none;
+                        color: $accent-color;
+                     }
+                     &:hover {
+                        color: $accent-color2;
+                     }
+                  }
+            }
+            a {
+               &:link {
+               text-decoration: none;
+               font-size: 1rem;
+               color: $accent-color;
+               }
+               &:visited {
+                  text-decoration: none;
+                  color: $accent-color;
+               }
+               &:hover {
+                  color: $accent-color2;
+               }
+            }
+         }
+         img{
+            height: 500px;
+         }
       }
-      #WebDesign, #HealthComm, #personal, #resume {
+      #WebDesign, #HealthComm, #Resume {
          color: transparent;
       }
       h2 {
@@ -241,10 +289,25 @@ main {
 }
 }
 footer {
+   margin-left: 60px;
+   margin-top: 80px;
+   a {
+      &:link {
+         text-decoration: none;
+         color: $accent-color;
+      }
+      &:visited {
+         text-decoration: none;
+         color: $accent-color;
+      }
+      &:hover {
+         color: $accent-color2;
+      }
+   }
    p{
-      postion: fixed;
-      bottom: 30px;
-      right: 30px;
-      margin: auto;
+      font-family: $font-stack2;
+      font-weight: 100;
+      font-size: .7rem
+      ;
    }
 }
