@@ -89,6 +89,10 @@ main div h2 {
   font-weight: bold;
   color: #D1C600;
 }
+main div #WebDesign {
+  margin-bottom: 200px;
+  color: transparent;
+}
 main div p {
   margin-top: 15px;
   width: 600px;
