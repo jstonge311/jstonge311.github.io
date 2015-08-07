@@ -107,7 +107,7 @@ main div.WebDesign {
   height: 570px;
 }
 main div.WebDesign img {
-  width: 40%;
+  width: 300px;
   margin-right: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -127,8 +127,8 @@ main div.WebDesign p a:hover {
   color: #0C6285;
 }
 main div.HealthComm {
-  margin-top: 85px;
-  margin-right: 0px;
+  margin-top: 72px;
+  margin-right: 50px;
   padding-left: 20px;
 }
 main div.resume {
