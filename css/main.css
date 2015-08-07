@@ -88,7 +88,7 @@ main div {
 }
 main div:first-of-type {
   margin-top: 145px;
-  height: 545px;
+  height: 565px;
 }
 main div.IdentityDesign {
   margin-top: 0;
@@ -177,7 +177,7 @@ main div p#IdentityDesign {
 }
 main div p#links {
   font-family: "Unna", serif;
-  padding-bottom: 116px;
+  padding-bottom: 136px;
   font-size: 1.5rem;
 }
 main div p#links a:link {
