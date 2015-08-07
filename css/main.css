@@ -89,8 +89,10 @@ main div h2 {
   font-weight: bold;
   color: #D1C600;
 }
+main div.WebDesign {
+  margin-top: 139px;
+}
 main div #WebDesign {
-  margin-bottom: 200px;
   color: transparent;
 }
 main div p {
@@ -123,7 +125,7 @@ main div p#links a:hover {
 }
 main div div.grid {
   width: 800px;
-  height: 400px;
+  height: 600px;
   border: none;
   margin: 50px 0 0 0;
   padding: 0;
