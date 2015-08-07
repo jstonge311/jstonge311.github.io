@@ -87,13 +87,13 @@ main div {
 main div.hello {
   margin-top: 145px;
   margin-right: 50px;
-  padding-left: 70px;
+  padding-left: 20px;
   height: 570px;
 }
 main div.IdentityDesign {
   margin-top: 25px;
   margin-right: 50px;
-  padding-left: 70px;
+  padding-left: 20px;
   height: 650px;
 }
 main div.IdentityDesign div {
@@ -103,7 +103,7 @@ main div.IdentityDesign div {
 main div.WebDesign {
   margin-top: 161px;
   margin-right: 50px;
-  padding-left: 70px;
+  padding-left: 20px;
   height: 570px;
 }
 main div.WebDesign img {
@@ -113,7 +113,7 @@ main div.WebDesign img {
   padding-bottom: 30px;
 }
 main div.WebDesign p {
-  width: 80%;
+  width: 700px;
 }
 main div.WebDesign p a:link {
   text-decoration: none;
@@ -127,14 +127,14 @@ main div.WebDesign p a:hover {
   color: #0C6285;
 }
 main div.HealthComm {
-  margin-top: 95px;
-  margin-right: 50px;
-  padding-left: 70px;
+  margin-top: 85px;
+  margin-right: 0px;
+  padding-left: 20px;
 }
 main div.resume {
   margin-top: 131px;
   margin-right: 50px;
-  padding-left: 70px;
+  padding-left: 20px;
 }
 main div.resume p {
   padding-top: 15px;
