@@ -67,7 +67,7 @@ header {
             font-family: $font-stack2;
             font-weight: 100;
             text-decoration: none;
-            color: #000;
+            color: #5A5A5A;
             &:hover {
                color: $accent-color;
             }
@@ -79,6 +79,7 @@ main {
    z-index:10;
    margin-left: 395px;
    p {
+      color: #5A5A5A;
       #top {
          height: 290px;
          color: transparent;
@@ -86,12 +87,38 @@ main {
    }
    div {
       font-family: $font-stack2;
-      height: 545px;
+      height: 550px;
       margin-right: 50px;
       padding-left: 70px;
       border-top: 4px solid $accent-color2;
       &:first-of-type {
          margin-top: 145px;
+      }
+      &.IdentityDesign{
+         margin-top: 30px;
+      }
+      &.WebDesign {
+         margin-top: 134px;
+         img {
+            width: 48%;
+            margin: auto;
+            padding-top: 30px;
+         }
+         p {
+            width: 80%;
+         }
+      }
+      &.HealthComm{
+         margin-top: 169px;
+      }
+      &.personal{
+         margin-top: 169px;
+      }
+      &.resume{
+         margin-top: 169px;
+      }
+      #WebDesign, #HealthComm, #personal, #resume {
+         color: transparent;
       }
       h2 {
          margin-top: 30px;
@@ -99,12 +126,6 @@ main {
          font-family: $font-stack;
          font-weight: bold;
          color: $accent-color;
-      }
-      &.WebDesign {
-         margin-top: 139px;
-      }
-      #WebDesign {
-         color: transparent;
       }
       p{
          margin-top: 15px;
@@ -118,7 +139,7 @@ main {
       }
          &#links {
             font-family: $font-stack;
-            padding-bottom: 81px;
+            padding-bottom: 116px;
             font-size: 1.5rem;
             a {
                &:link {
@@ -176,7 +197,7 @@ main {
                height: 100%;
             }
          }
-            &.smoothie {
+         &.smoothie {
             border: none;
             margin-left: 10px;
             width: 150px;
@@ -185,8 +206,45 @@ main {
                height: 100%;
             }
          }
+         &.MOLST {
+            border: none;
+            padding-top: 20px;
+            height: 320px;
+            width: 200px;
+            img {
+               height: 100%;
+            }
+         }
+         &.respect {
+            border: none;
+            margin-left: 100px;
+            padding-top: 10px;
+            height: 125px;
+            width: 300px;
+            img {
+               height: 100%;
+            }
+         }
+         &.proxy {
+            border: none;
+            margin-left: 60px;
+            padding-top: 20px;
+            height: 200px;
+            width: 400px;
+            img {
+               height: 100%;
+            }
+         }
       }
    }
 }
 }
+}
+footer {
+   p{
+      postion: fixed;
+      bottom: 30px;
+      right: 30px;
+      margin: auto;
+   }
 }

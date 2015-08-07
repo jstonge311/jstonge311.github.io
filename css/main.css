@@ -58,7 +58,7 @@ header nav li a {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   text-decoration: none;
-  color: #000;
+  color: #5A5A5A;
 }
 header nav li a:hover {
   color: #D1C600;
@@ -68,13 +68,16 @@ main {
   z-index: 10;
   margin-left: 395px;
 }
+main p {
+  color: #5A5A5A;
+}
 main p #top {
   height: 290px;
   color: transparent;
 }
 main div {
   font-family: "Roboto", sans-serif;
-  height: 545px;
+  height: 550px;
   margin-right: 50px;
   padding-left: 70px;
   border-top: 4px solid #0C6285;
@@ -82,18 +85,38 @@ main div {
 main div:first-of-type {
   margin-top: 145px;
 }
+main div.IdentityDesign {
+  margin-top: 30px;
+}
+main div.WebDesign {
+  margin-top: 134px;
+}
+main div.WebDesign img {
+  width: 48%;
+  margin: auto;
+  padding-top: 30px;
+}
+main div.WebDesign p {
+  width: 80%;
+}
+main div.HealthComm {
+  margin-top: 169px;
+}
+main div.personal {
+  margin-top: 169px;
+}
+main div.resume {
+  margin-top: 169px;
+}
+main div #WebDesign, main div #HealthComm, main div #personal, main div #resume {
+  color: transparent;
+}
 main div h2 {
   margin-top: 30px;
   font-size: 3rem;
   font-family: "Unna", serif;
   font-weight: bold;
   color: #D1C600;
-}
-main div.WebDesign {
-  margin-top: 139px;
-}
-main div #WebDesign {
-  color: transparent;
 }
 main div p {
   margin-top: 15px;
@@ -108,7 +131,7 @@ main div p#IdentityDesign {
 }
 main div p#links {
   font-family: "Unna", serif;
-  padding-bottom: 81px;
+  padding-bottom: 116px;
   font-size: 1.5rem;
 }
 main div p#links a:link {
@@ -172,4 +195,40 @@ main div div.grid div.smoothie {
 }
 main div div.grid div.smoothie img {
   height: 100%;
+}
+main div div.grid div.MOLST {
+  border: none;
+  padding-top: 20px;
+  height: 320px;
+  width: 200px;
+}
+main div div.grid div.MOLST img {
+  height: 100%;
+}
+main div div.grid div.respect {
+  border: none;
+  margin-left: 100px;
+  padding-top: 10px;
+  height: 125px;
+  width: 300px;
+}
+main div div.grid div.respect img {
+  height: 100%;
+}
+main div div.grid div.proxy {
+  border: none;
+  margin-left: 60px;
+  padding-top: 20px;
+  height: 200px;
+  width: 400px;
+}
+main div div.grid div.proxy img {
+  height: 100%;
+}
+
+footer p {
+  postion: fixed;
+  bottom: 30px;
+  right: 30px;
+  margin: auto;
 }
