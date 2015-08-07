@@ -1,0 +1,22 @@
+/* TEAM & THANKS*/
+
+This site was built by myself, but would not have been possible in the least without the support and instruction of my professor, TA, and classmates in RISD's summer 2015 web design course.
+
+/* CREDITS */
+
+FONTS USED
+
+Both the serif and sans-serif fonts seen on this site are from the Google Fonts library.
+The serif "header" font is Unna.
+The sans-serif "body" font is Roboto.
+
+IMAGES USED
+
+All images are my own intellectual property as of August 2015, with one exception:
+
+handmadepaper.png, background image
+credit: user Le Marquis for subtlepatterns.com
+
+JAVASCRIPT/JQUERY USED
+
+I used David DeSandro's Masonry library (masonry.desandro.com) and Lokesh Dhakar's Lightbox2 library (lokeshdhakar.com/projects/lightbox2) as well as css-tricks.com's smooth-scrolling code and tutorial (css-tricks.com/snippets/jquery/smooth-scrolling).
