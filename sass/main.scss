@@ -43,7 +43,7 @@ header {
    h1 {
       font-size: 4.1rem;
       font-family: $font-stack;
-      margin: 0 0 0 70px;
+      margin: 15px 0 0 70px;
       padding-top: 40px;
       line-height: 3.5rem;
       font-weight: bold;
@@ -57,8 +57,8 @@ header {
       ul {
          float: left;
          border-top: 4px solid $accent-color2;
-         margin-top: 65px;
-         padding-top: 20px;
+         margin-top: 50px;
+         padding-top: 30px;
          padding-left: 20px;
          width: 325px;
          height: 260px;
@@ -95,20 +95,25 @@ main {
       margin-right: 50px;
       padding-left: 70px;
       border-top: 4px solid $accent-color2;
-      &:first-of-type {
+      &.hello {
          margin-top: 145px;
-         height: 565px;
+         height: 570px;
       }
       &.IdentityDesign{
-         margin-top: 0;
+         margin-top: 25px;
+         height: 570px;
+         div {
+            border: 1px solid $accent-color2;
+            padding: 10px;
+         }
       }
       &.WebDesign {
-         margin-top: 130.5px;
-         height: 515px;
+         margin-top: 99px;
          img {
             width: 40%;
-            margin-left: 20px;
+            margin-right: 20px;
             padding-top: 30px;
+            padding-bottom: 30px;
          }
          p {
             width: 80%;
@@ -128,11 +133,12 @@ main {
          }
       }
       &.HealthComm{
-         margin-top: 119px;
+         margin-top: 131px;
       }
       &.resume{
-         margin-top: 130px;
+         margin-top: 131px;
          p {
+            padding-top: 15px;
             width: 100%;
             span {
                color: $accent-color2;
@@ -191,6 +197,7 @@ main {
       }
          &#links {
             font-family: $font-stack;
+            padding-top: 30px;
             padding-bottom: 136px;
             font-size: 1.5rem;
             a {
@@ -222,6 +229,7 @@ main {
          div {
             margin: 0;
             padding: 0;
+            border: 1px solid $accent-color2;
          &.creperie {
             border: none;
             margin-top: 40px;

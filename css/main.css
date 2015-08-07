@@ -34,7 +34,7 @@ header a:hover {
 header h1 {
   font-size: 4.1rem;
   font-family: "Unna", serif;
-  margin: 0 0 0 70px;
+  margin: 15px 0 0 70px;
   padding-top: 40px;
   line-height: 3.5rem;
   font-weight: bold;
@@ -49,8 +49,8 @@ header nav {
 header nav ul {
   float: left;
   border-top: 4px solid #0C6285;
-  margin-top: 65px;
-  padding-top: 20px;
+  margin-top: 50px;
+  padding-top: 30px;
   padding-left: 20px;
   width: 325px;
   height: 260px;
@@ -86,21 +86,26 @@ main div {
   padding-left: 70px;
   border-top: 4px solid #0C6285;
 }
-main div:first-of-type {
+main div.hello {
   margin-top: 145px;
-  height: 565px;
+  height: 570px;
 }
 main div.IdentityDesign {
-  margin-top: 0;
+  margin-top: 25px;
+  height: 570px;
+}
+main div.IdentityDesign div {
+  border: 1px solid #0C6285;
+  padding: 10px;
 }
 main div.WebDesign {
-  margin-top: 130.5px;
-  height: 515px;
+  margin-top: 99px;
 }
 main div.WebDesign img {
   width: 40%;
-  margin-left: 20px;
+  margin-right: 20px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 main div.WebDesign p {
   width: 80%;
@@ -117,12 +122,13 @@ main div.WebDesign p a:hover {
   color: #0C6285;
 }
 main div.HealthComm {
-  margin-top: 119px;
+  margin-top: 131px;
 }
 main div.resume {
-  margin-top: 130px;
+  margin-top: 131px;
 }
 main div.resume p {
+  padding-top: 15px;
   width: 100%;
 }
 main div.resume p span {
@@ -177,6 +183,7 @@ main div p#IdentityDesign {
 }
 main div p#links {
   font-family: "Unna", serif;
+  padding-top: 30px;
   padding-bottom: 136px;
   font-size: 1.5rem;
 }
@@ -205,6 +212,7 @@ main div div.grid .none {
 main div div.grid div {
   margin: 0;
   padding: 0;
+  border: 1px solid #0C6285;
 }
 main div div.grid div.creperie {
   border: none;
