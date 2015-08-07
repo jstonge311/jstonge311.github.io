@@ -92,23 +92,28 @@ main {
    }
    div {
       font-family: $font-stack2;
-      margin-right: 50px;
-      padding-left: 70px;
       border-top: 4px solid $accent-color2;
       &.hello {
          margin-top: 145px;
+         margin-right: 50px;
+         padding-left: 70px;
          height: 570px;
       }
       &.IdentityDesign{
          margin-top: 25px;
-         height: 570px;
+         margin-right: 50px;
+         padding-left: 70px;
+         height: 650px;
          div {
             border: 1px solid $accent-color2;
             padding: 10px;
          }
       }
       &.WebDesign {
-         margin-top: 99px;
+         margin-top: 161px;
+         margin-right: 50px;
+         padding-left: 70px;
+         height: 570px;
          img {
             width: 40%;
             margin-right: 20px;
@@ -133,10 +138,14 @@ main {
          }
       }
       &.HealthComm{
-         margin-top: 131px;
+         margin-top: 95px;
+         margin-right: 50px;
+         padding-left: 70px;
       }
       &.resume{
          margin-top: 131px;
+         margin-right: 50px;
+         padding-left: 70px;
          p {
             padding-top: 15px;
             width: 100%;
@@ -218,9 +227,9 @@ main {
    }
    div {
          &.grid{
-            width: 800px;
-            height: 600px;
+            width: 900px;
             border: none;
+            height: 570px;
             margin: 50px 0 0 0;
             padding: 0;
          .none{
@@ -228,71 +237,66 @@ main {
          }
          div {
             margin: 0;
-            padding: 0;
-            border: 1px solid $accent-color2;
-         &.creperie {
+            padding: 10;
             border: none;
-            margin-top: 40px;
-            width: 300px;
-            height: 100px;
+         &.creperie {
+            border-top: 2px solid $accent-color;
+            width: 200px;
+            height: 230px;
+            margin-bottom: 10px;
             img {
                width: 100%;
             }
          }
          &.cruze {
-            border: none;
-            margin-top: 60px;
-            width: 300px;
-            height: 100px;
+            border-top: 2px solid $accent-color2;
+            width: 200px;
+            height:  200px;
             img {
                width: 100%;
             }
          }
          &.celestial {
-            border: none;
-            margin-left: 50px;
+            border-top: 2px solid $accent-color;
             width: 200px;
-            height: 380px;
+            height: 500px;
             img {
-               height: 100%;
+               width: 100%;
             }
          }
          &.smoothie {
-            border: none;
-            margin-left: 10px;
-            width: 150px;
-            height: 380px;
+            border-top: 2px solid $accent-color2;
+            width: 200px;
+            height: 500px;
             img {
-               height: 100%;
+               width: 100%;
             }
          }
          &.MOLST {
-            border: none;
-            padding-top: 20px;
-            height: 320px;
+            border-top: 2px solid $accent-color;
+            height: 250px;
             width: 200px;
             img {
-               height: 100%;
+               padding: 10px 0 0 10px;
+               width: 90%;
             }
          }
          &.respect {
-            border: none;
-            margin-left: 100px;
+            border-top: 2px solid $accent-color2;
             padding-top: 10px;
-            height: 125px;
-            width: 300px;
+            height: 200px;
+            width: 200px;
             img {
-               height: 100%;
+               width: 100%;
             }
          }
          &.proxy {
-            border: none;
-            margin-left: 60px;
-            padding-top: 20px;
+            border-top: 2px solid $accent-color;
+            padding: 10px;
             height: 200px;
-            width: 400px;
+            width: 200px;
             img {
-               height: 100%;
+               width: 100%;
             }
          }
       }

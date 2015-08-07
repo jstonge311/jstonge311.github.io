@@ -82,24 +82,29 @@ main p #top {
 }
 main div {
   font-family: "Roboto", sans-serif;
-  margin-right: 50px;
-  padding-left: 70px;
   border-top: 4px solid #0C6285;
 }
 main div.hello {
   margin-top: 145px;
+  margin-right: 50px;
+  padding-left: 70px;
   height: 570px;
 }
 main div.IdentityDesign {
   margin-top: 25px;
-  height: 570px;
+  margin-right: 50px;
+  padding-left: 70px;
+  height: 650px;
 }
 main div.IdentityDesign div {
   border: 1px solid #0C6285;
   padding: 10px;
 }
 main div.WebDesign {
-  margin-top: 99px;
+  margin-top: 161px;
+  margin-right: 50px;
+  padding-left: 70px;
+  height: 570px;
 }
 main div.WebDesign img {
   width: 40%;
@@ -122,10 +127,14 @@ main div.WebDesign p a:hover {
   color: #0C6285;
 }
 main div.HealthComm {
-  margin-top: 131px;
+  margin-top: 95px;
+  margin-right: 50px;
+  padding-left: 70px;
 }
 main div.resume {
   margin-top: 131px;
+  margin-right: 50px;
+  padding-left: 70px;
 }
 main div.resume p {
   padding-top: 15px;
@@ -200,9 +209,9 @@ main div p#links a:hover {
   text-decoration: none;
 }
 main div div.grid {
-  width: 800px;
-  height: 600px;
+  width: 900px;
   border: none;
+  height: 570px;
   margin: 50px 0 0 0;
   padding: 0;
 }
@@ -211,73 +220,68 @@ main div div.grid .none {
 }
 main div div.grid div {
   margin: 0;
-  padding: 0;
-  border: 1px solid #0C6285;
+  padding: 10;
+  border: none;
 }
 main div div.grid div.creperie {
-  border: none;
-  margin-top: 40px;
-  width: 300px;
-  height: 100px;
+  border-top: 2px solid #D1C600;
+  width: 200px;
+  height: 230px;
+  margin-bottom: 10px;
 }
 main div div.grid div.creperie img {
   width: 100%;
 }
 main div div.grid div.cruze {
-  border: none;
-  margin-top: 60px;
-  width: 300px;
-  height: 100px;
+  border-top: 2px solid #0C6285;
+  width: 200px;
+  height: 200px;
 }
 main div div.grid div.cruze img {
   width: 100%;
 }
 main div div.grid div.celestial {
-  border: none;
-  margin-left: 50px;
+  border-top: 2px solid #D1C600;
   width: 200px;
-  height: 380px;
+  height: 500px;
 }
 main div div.grid div.celestial img {
-  height: 100%;
+  width: 100%;
 }
 main div div.grid div.smoothie {
-  border: none;
-  margin-left: 10px;
-  width: 150px;
-  height: 380px;
+  border-top: 2px solid #0C6285;
+  width: 200px;
+  height: 500px;
 }
 main div div.grid div.smoothie img {
-  height: 100%;
+  width: 100%;
 }
 main div div.grid div.MOLST {
-  border: none;
-  padding-top: 20px;
-  height: 320px;
+  border-top: 2px solid #D1C600;
+  height: 250px;
   width: 200px;
 }
 main div div.grid div.MOLST img {
-  height: 100%;
+  padding: 10px 0 0 10px;
+  width: 90%;
 }
 main div div.grid div.respect {
-  border: none;
-  margin-left: 100px;
+  border-top: 2px solid #0C6285;
   padding-top: 10px;
-  height: 125px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
 main div div.grid div.respect img {
-  height: 100%;
+  width: 100%;
 }
 main div div.grid div.proxy {
-  border: none;
-  margin-left: 60px;
-  padding-top: 20px;
+  border-top: 2px solid #D1C600;
+  padding: 10px;
   height: 200px;
-  width: 400px;
+  width: 200px;
 }
 main div div.grid div.proxy img {
-  height: 100%;
+  width: 100%;
 }
 
 footer {
