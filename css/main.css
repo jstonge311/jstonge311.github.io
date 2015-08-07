@@ -1,5 +1,10 @@
 @import url(base.css);
 @import url(lightbox.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url(../img/handmadepaper.png);
 }
@@ -77,19 +82,20 @@ main p #top {
 }
 main div {
   font-family: "Roboto", sans-serif;
-  height: 550px;
   margin-right: 50px;
   padding-left: 70px;
   border-top: 4px solid #0C6285;
 }
 main div:first-of-type {
   margin-top: 145px;
+  height: 545px;
 }
 main div.IdentityDesign {
-  margin-top: 30px;
+  margin-top: 0;
 }
 main div.WebDesign {
-  margin-top: 134px;
+  margin-top: 130.5px;
+  height: 515px;
 }
 main div.WebDesign img {
   width: 40%;
@@ -111,10 +117,10 @@ main div.WebDesign p a:hover {
   color: #0C6285;
 }
 main div.HealthComm {
-  margin-top: 102px;
+  margin-top: 116px;
 }
 main div.resume {
-  margin-top: 109px;
+  margin-top: 130px;
 }
 main div.resume p {
   width: 100%;
@@ -153,14 +159,13 @@ main div #WebDesign, main div #HealthComm, main div #Resume {
   color: transparent;
 }
 main div h2 {
-  margin-top: 30px;
+  margin: 30px 0 10px 0;
   font-size: 3rem;
   font-family: "Unna", serif;
   font-weight: bold;
   color: #D1C600;
 }
 main div p {
-  margin-top: 15px;
   width: 600px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
