@@ -56,12 +56,12 @@ header nav ul {
   height: 260px;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 3rem;
 }
 header nav li a {
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
   color: #5A5A5A;
 }
@@ -183,7 +183,7 @@ main div h2 {
 main div p {
   width: 600px;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.9rem;
 }
@@ -300,6 +300,6 @@ footer a:hover {
 }
 footer p {
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: .8rem;
 }
