@@ -83,6 +83,7 @@ main p #top {
 main div {
   font-family: "Roboto", sans-serif;
   border-top: 4px solid #0C6285;
+  margin-left: 8px;
 }
 main div.hello {
   margin-top: 145px;
@@ -157,10 +158,9 @@ main div.resume p.category {
 main div.resume p.subtitle1 {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
-  font-weight: 400;
-  color: #676767;
+  font-weight: 300;
   line-height: 1em;
-  color: #0C6285;
+  color: #D1C600;
 }
 main div.resume p.subtitle2 {
   padding-left: 15px;
@@ -189,14 +189,14 @@ main div.resume p span {
 main div.resume p span a:link {
   font-size: 1.3rem;
   text-decoration: none;
-  color: #D1C600;
+  color: #0C6285;
 }
 main div.resume p span a:visited {
   text-decoration: none;
   color: #D1C600;
 }
 main div.resume p span a:hover {
-  color: #0C6285;
+  color: #D1C600;
 }
 main div.resume p a:link {
   text-decoration: none;

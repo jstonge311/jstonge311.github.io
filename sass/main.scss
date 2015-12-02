@@ -93,6 +93,7 @@ main {
    div {
       font-family: $font-stack2;
       border-top: 4px solid $accent-color2;
+      margin-left: 8px;
       &.hello {
          margin-top: 145px;
          margin-right: 50px;
@@ -166,10 +167,9 @@ main {
             &.subtitle1 {
                font-family: $font-stack2;
                font-size: 1.1rem;
-               font-weight: 400;
-               color: $gray;
+               font-weight: 300;
                line-height: 1em;
-               color: $accent-color2;
+               color: $accent-color;
             }
             &.subtitle2 {
                padding-left: 15px;
@@ -198,14 +198,14 @@ main {
                      &:link {
                         font-size: 1.3rem;
                         text-decoration: none;
-                        color: $accent-color;
+                        color: $accent-color2;
                      }
                      &:visited {
                         text-decoration: none;
                         color: $accent-color;
                      }
                      &:hover {
-                        color: $accent-color2;
+                        color: $accent-color;
                      }
                   }
             }
