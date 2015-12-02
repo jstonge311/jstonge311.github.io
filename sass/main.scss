@@ -7,7 +7,7 @@ $font-stack: 'Unna', serif;
 $font-stack2: 'Roboto', sans-serif;
 $accent-color: #D1C600;
 $accent-color2: #0C6285;
-$gray: #5A5A5A;
+$gray: #676767;
 
 @mixin linear-gradient {
    background-color: $to;
@@ -100,7 +100,7 @@ main {
          height: 570px;
       }
       &.IdentityDesign{
-         margin-top: 25px;
+         margin-top: 55px;
          margin-right: 50px;
          padding-left: 20px;
          height: 650px;
@@ -146,9 +146,52 @@ main {
          margin-top: 131px;
          margin-right: 50px;
          padding-left: 20px;
+         ul {
+               padding: 3px 0 3px 40px;
+               font-family: $font-stack2;
+               font-size: .9rem;
+               font-weight: 300;
+               color: $gray;
+               line-height: 1.2rem;
+            }
          p {
-            padding-top: 15px;
             width: 100%;
+            padding-top: 15px;
+            &.category {
+               font-family: $font-stack;
+               font-size: 2.3rem;
+               font-weight: bold;
+               color: $accent-color2;
+            }
+            &.subtitle1 {
+               font-family: $font-stack2;
+               font-size: 1.1rem;
+               font-weight: 400;
+               color: $gray;
+               line-height: 1em;
+               color: $accent-color2;
+            }
+            &.subtitle2 {
+               padding-left: 15px;
+               padding-bottom: 10px;
+               font-family: $font-stack2;
+               font-size: 1rem;
+               font-weight: 300;
+               color: $gray;
+               line-height: .5em;
+            }
+            &.rbody {
+               padding-left: 25px;
+               padding-top: 3px;
+               font-family: $font-stack2;
+               font-size: .9rem;
+               font-weight: 300;
+               color: $gray;
+               line-height: 1rem;
+            }
+            i {
+               font-size: .8rem;
+            }
             span {
                color: $accent-color2;
                   a {
